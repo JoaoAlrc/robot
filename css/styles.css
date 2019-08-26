@@ -5,87 +5,91 @@
  */
 
 body {
-  font-family: 'Lato';
+  font-family: 'Gotham';
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Catamaran';
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Gotham Book';
   font-weight: 800 !important;
 }
 
-.btn-xl {
-  text-transform: uppercase;
-  padding: 1.5rem 3rem;
-  font-size: 0.9rem;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
+/* Header */
+
+.header-contain {
+  position: relative;
+  background-image: url('../images/robot9.jpeg');
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* Box, Section */
+
+.box-shop {
+  background-color: #1f5ecc;
+  border-radius: 30px;
+  margin: -150px 15% 0px;
+  padding: 25px;
+  position: relative;
 }
 
 .bg-black {
   background-color: #000 !important;
 }
 
-.rounded-pill {
+/* Button */
+
+.btn {
+  text-transform: uppercase;
+  padding: 1.5rem 2rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
   border-radius: 5rem;
 }
 
-.navbar-custom {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.navbar-custom .navbar-brand {
-  text-transform: uppercase;
-  font-size: 1rem;
-  letter-spacing: 0.1rem;
-  font-weight: 700;
-}
-
-.navbar-custom .navbar-nav .nav-item .nav-link {
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
-}
-
-.box-shop {
-  background-color: #1f5ecc;
-  border-radius: 30px;
-  margin: 90% 30px 0px;
-  padding: 1px
-}
-
-header.masthead {
-  position: relative;
-  /* padding-top: calc(7rem + 72px);
-    padding-bottom: 7rem; */
-  /* background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
-    background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%); */
-  background-image: url('../images/robot9.jpeg');
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-header.masthead .masthead-content {
-  z-index: 1;
-  position: relative;
-}
-
 .title {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .big_text {
   font-size: 2rem;
   text-align: center;
-  text-align: center; 
-  margin-bottom: 0%; 
-  margin-top: 15px; 
+  text-align: center;
+  margin-bottom: 0%;
+  margin-top: 15px;
   color: #fff
+}
+
+/* Bar */
+
+.vertical-bar {
+  height: 270px;
+  background-color: #1f5ecc;
+  width: 25px;
+  margin-top: -30px
+}
+
+.half-vertical-bar {
+  height: 80px;
+  background-color: #1f5ecc;
+  width: 25px
+}
+
+.horizontal-bar {
+  height: 30px;
+  background-color: #1f5ecc;
+  margin-top: -30px
+}
+
+/* Image */
+
+.section-image {
+  border: solid;
+  border-width: 20px;
+  border-color: #1f5ecc;
+  margin-top: -1px
 }
 
 header.masthead .bg-circle {
